@@ -1,0 +1,19 @@
+LIBRARY Goldx86Engine
+EXPORTS
+Parse
+ResetParser
+LoadProgramText
+LoadProgramFile
+LoadGrammarFile
+GetRTokenCount
+GetRTokenData
+GetRTokenDataSize
+GetRIndex=GetRSymbolIndex
+GetErrExpectedCount
+GetErrExpectedSize
+GetErrExpectedStr
+GetErrLastToken
+GetErrLastTokenSize
+GetCurrentLine
+GetCurrentColumn
+IsGrammarLoaded
